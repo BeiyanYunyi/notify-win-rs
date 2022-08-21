@@ -39,7 +39,7 @@ jobs:
           key: npm-cache-lint-node@16
 
       - name: 'Install dependencies'
-        run: pnpm install --frozen-lockfile --registry https://registry.npmjs.org --network-timeout 300000
+        run: pnpm install
 
       - name: ESLint
         run: pnpm lint

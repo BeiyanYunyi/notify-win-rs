@@ -218,6 +218,7 @@ if (!nativeBinding) {
   throw new Error(`Failed to load native binding`)
 }
 
-const { noti } = nativeBinding
+const { POWERSHELL_APP_ID, Toaster } = nativeBinding
 
-module.exports.noti = noti
+module.exports.POWERSHELL_APP_ID = POWERSHELL_APP_ID
+module.exports.Toaster = Toaster
