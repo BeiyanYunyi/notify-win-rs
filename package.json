@@ -1,11 +1,15 @@
 {
   "name": "notify-win-rs",
-  "version": "1.0.0",
-  "description": "Template project for writing node package with napi-rs",
+  "version": "0.0.0",
+  "description": "Pop a Toast in Windows at ease",
   "main": "index.js",
-  "repository": "git@github.com:napi-rs/package-template.git",
+  "repository": "https://github.com/lixiang810/notify-win-rs",
   "license": "MIT",
   "keywords": [
+    "Windows 10 notification",
+    "notification",
+    "toaster",
+    "notify",
     "napi-rs",
     "NAPI",
     "N-API",
@@ -22,16 +26,8 @@
     "triples": {
       "defaults": true,
       "additional": [
-        "x86_64-unknown-linux-musl",
-        "aarch64-unknown-linux-gnu",
         "i686-pc-windows-msvc",
-        "armv7-unknown-linux-gnueabihf",
-        "aarch64-apple-darwin",
-        "aarch64-linux-android",
-        "x86_64-unknown-freebsd",
-        "aarch64-unknown-linux-musl",
-        "aarch64-pc-windows-msvc",
-        "armv7-linux-androideabi"
+        "aarch64-pc-windows-msvc"
       ]
     }
   },
