@@ -3,6 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@napi-rs/cli': ^2.10.3
   '@swc-node/register': ^1.5.1
+  '@types/node': ^18.7.8
   '@typescript-eslint/eslint-plugin': ^5.31.0
   '@typescript-eslint/parser': ^5.31.0
   ava: ^4.3.1
@@ -20,6 +21,7 @@ specifiers:
 devDependencies:
   '@napi-rs/cli': 2.10.3
   '@swc-node/register': 1.5.1_typescript@4.7.4
+  '@types/node': 18.7.8
   '@typescript-eslint/eslint-plugin': 5.31.0_d5zwcxr4bwkhmuo464cb3a2puu
   '@typescript-eslint/parser': 5.31.0_he2ccbldppg44uulnyq4rwocfa
   ava: 4.3.1
@@ -297,6 +299,10 @@ packages:
 
   /@types/json5/0.0.29:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
+    dev: true
+
+  /@types/node/18.7.8:
+    resolution: {integrity: sha512-/YP55EMK2341JkODUb8DM9O0x1SIz2aBvyF33Uf1c76St3VpsMXEIW0nxuKkq/5cxnbz0RD9cfwNZHEAZQD3ag==}
     dev: true
 
   /@typescript-eslint/eslint-plugin/5.31.0_d5zwcxr4bwkhmuo464cb3a2puu:
