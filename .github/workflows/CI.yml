@@ -37,6 +37,9 @@ jobs:
     runs-on: ${{ matrix.settings.host }}
     steps:
       - uses: actions/checkout@v3
+      - uses: pnpm/action-setup@v2.2.2
+        with:
+          version: 7
       - name: Setup node
         uses: actions/setup-node@v3
         if: ${{ !matrix.settings.docker }}
@@ -72,6 +75,9 @@ jobs:
         shell: bash
       - name: Install dependencies
         run: pnpm install
+      - uses: pnpm/action-setup@v2.2.2
+        with:
+          version: 7
       - name: Setup node x86
         uses: actions/setup-node@v3
         if: matrix.settings.target == 'i686-pc-windows-msvc'
@@ -114,6 +120,9 @@ jobs:
     runs-on: ${{ matrix.settings.host }}
     steps:
       - uses: actions/checkout@v3
+      - uses: pnpm/action-setup@v2.2.2
+        with:
+          version: 7
       - name: Setup node
         uses: actions/setup-node@v3
         with:
@@ -139,6 +148,9 @@ jobs:
       - test-macOS-windows-binding
     steps:
       - uses: actions/checkout@v3
+      - uses: pnpm/action-setup@v2.2.2
+        with:
+          version: 7
       - name: Setup node
         uses: actions/setup-node@v3
         with:
