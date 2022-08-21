@@ -1,6 +1,6 @@
 {
   "name": "notify-win-rs",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Pop a Toast in Windows at ease",
   "main": "index.js",
   "repository": "https://github.com/lixiang810/notify-win-rs",
