@@ -218,7 +218,9 @@ if (!nativeBinding) {
   throw new Error(`Failed to load native binding`)
 }
 
-const { POWERSHELL_APP_ID, Toaster } = nativeBinding
+const { POWERSHELL_APP_ID, WINDOWS_STORE_APP_ID, Toast, Toaster } = nativeBinding
 
 module.exports.POWERSHELL_APP_ID = POWERSHELL_APP_ID
+module.exports.WINDOWS_STORE_APP_ID = WINDOWS_STORE_APP_ID
+module.exports.Toast = Toast
 module.exports.Toaster = Toaster
